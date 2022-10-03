@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "start.js",
+  "license": "MIT",
+  "dependencies": {
+    "prosemirror-model": "^1.18.1",
+    "prosemirror-schema-basic": "^1.2.0",
+    "prosemirror-schema-list": "^1.2.2",
+    "prosemirror-transform": "^1.7.0"
+  },
+  "scripts": {
+    "dev": "node src/start.js"
+  }
+}
